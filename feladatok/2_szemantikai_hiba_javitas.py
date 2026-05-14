@@ -25,7 +25,8 @@ utazasok = [
 ]
 
 def atlagos_tavolsag(utazasok_lista):
-    if not utazasok_lista:
+
+     if not utazasok_lista:
         return 0
     total = 0
     for utazas in utazasok_lista:

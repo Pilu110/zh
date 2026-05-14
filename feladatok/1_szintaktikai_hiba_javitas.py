@@ -31,7 +31,8 @@ def legdragabb_termek(adatok):
     for termek in adatok[1:]
         if termek["egysegar"] > legjobb["egysegar"]
             legjobb = termek
-    return legjobb["nev"]
+     return legjobb["nev"]
+
 if __name__ == "__main__":
     print("Keszlet osszertek:", keszlet_ertek_osszesen(termekek))
     print("Elerheto termekek:", elerheto_termekek(termekek))

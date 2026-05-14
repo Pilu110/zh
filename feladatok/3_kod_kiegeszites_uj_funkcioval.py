@@ -22,7 +22,8 @@ Kovetelmenyek:
 """
 import csv
 class Hallgato:
-    def __init__(self, nev, pontszam, aktiv=True):
+
+     def __init__(self, nev, pontszam, aktiv=True):
         self.nev = nev
         self.pontszam = pontszam
         self.aktiv = aktiv
@@ -47,9 +48,10 @@ class Tanfolyam:
         # TODO: valositsd meg
         pass
     def torol_hallgato(self, nev):
-        # TODO: valositsd meg (ValueError, ha nem talalhato)
-        pass
-    def mentes_csv(self, fajlnev):
+         # TODO: valositsd meg (ValueError, ha nem talalhato)
+         pass
+
+     def mentes_csv(self, fajlnev):
         # TODO: valositsd meg
         pass
 

@@ -30,7 +30,8 @@ Implementaland fuggvenyek:
 """
 import json
 def beolvas_ertekelesek(fajlnev):
-    # TODO: valositsd meg
+
+     # TODO: valositsd meg
     raise NotImplementedError("A fuggveny meg nincs implementalva.")
 
 def validalt_ertekeles(ertek):
@@ -47,7 +48,8 @@ def kategoriak_atlagai(rekordok):
 
 def mentes_osszefoglalo_json(rekordok, fajlnev):
     # TODO: valositsd meg
-    raise NotImplementedError("A fuggveny meg nincs implementalva.")
+     raise NotImplementedError("A fuggveny meg nincs implementalva.")
+
 if __name__ == "__main__":
     minta_rekordok = [
         {"termek": "Laptop A", "kategoria": "elektronika", "ertekelesek": [5, 4, 5]},
